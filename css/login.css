@@ -1,0 +1,166 @@
+
+
+.container{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    background-color: #0007;
+    width: 30%;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    padding-top: 40px;
+}
+
+
+h2{
+    color: #cadefc;
+    padding-bottom: 6px;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+h3{
+    color: #cadefc;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: -30px;
+}
+
+
+
+
+
+
+h5{
+
+    color: #cadefc;
+
+}
+
+h5 a{
+    color: #cadefc;
+    margin: 2%;
+}
+
+h5 a:hover{
+    color: crimson;
+}
+
+
+input[type=password], input[type=email]{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: #0007;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    background: burlywood;
+    opacity: 0.7;
+    border-radius: 2px;
+    color: #fff;
+}
+
+input[type=submit]:hover{
+    background-color: coral;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+#main{
+
+    width: auto;
+    height: 50px;
+    background-image: url(background1.jpg);
+    padding-bottom: 100%;
+    background-size: cover;
+    text-align: center; 
+    /* background-size: contain;    */
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #0001;
+    line-height: 80px;
+    position: fixed;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li:hover{
+    background-color: burlywood;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    font-size: 55px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .fa-google {
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 55px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+
+  }
